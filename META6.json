@@ -17,7 +17,7 @@
   },
   "resources": [
   ],
-  "source-url": "https://github.com/markldevine/perl6-POSIX-getaddrinfo.git",
+  "source-url": "https://github.com/markldevine/raku-POSIX-getaddrinfo.git",
   "tags": [
     "POSIX", "getaddrinfo"
   ]
