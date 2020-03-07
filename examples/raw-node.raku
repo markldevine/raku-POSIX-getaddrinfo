@@ -9,7 +9,7 @@ sub MAIN(Str:D $node is required) {
     my Pointer $res .= new;
     my $rv = getaddrinfo($node, Str, $hint, $res);
     say "return val: $rv";
-    if ( ! $rv ) {
+    if ! $rv {
         my $addr = nativecast(POSIX::getaddrinfo::addrinfo, $res);
         while $addr {
             with $addr {

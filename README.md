@@ -1,6 +1,5 @@
 NAME
 ====
-
 POSIX::getaddrinfo
 
 Description
