@@ -56,7 +56,7 @@ Get-Addr-Info('localhost');
 
 Get-Addr-Info-IPV4-STREAM()
 ---------------------------
-```perl6
+```raku
 use POSIX::getaddrinfo :Get-Addr-Info-IPV4-STREAM;
 
 Get-Addr-Info-IPV4-STREAM('services');
@@ -71,7 +71,7 @@ Get-Addr-Info-IPV4-STREAM('services');
 
 Get-Addr-Info-IPV4-STREAM-IPAddrs()
 -----------------------------------
-```perl6
+```raku
 use POSIX::getaddrinfo :Get-Addr-Info-IPV4-STREAM-IPAddrs;
 
 Get-Addr-Info-IPV4-STREAM-IPAddrs('services');
@@ -82,7 +82,7 @@ Get-Addr-Info-IPV4-STREAM-IPAddrs('services');
 
 Get-Addr-Info-IPV4-STREAM-Names()
 ---------------------------------
-```perl6
+```raku
 use POSIX::getaddrinfo :Get-Addr-Info-IPV4-STREAM-Names;
 
 Get-Addr-Info-IPV4-STREAM-Names('myserver'); # DNS serving 'mydomain.com'
