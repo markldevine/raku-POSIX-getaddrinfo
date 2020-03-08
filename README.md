@@ -16,7 +16,7 @@ Synopsis
 
 Get-Addr-Info()
 ---------------
-```perl6
+```raku
 use POSIX::getaddrinfo  :Get-Addr-Info;
 
 Get-Addr-Info('localhost');
