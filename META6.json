@@ -1,11 +1,7 @@
 {
-  "api": "0.1.1",
   "auth": "github:markldevine",
-  "authors": [
-    "Mark Devine <mark@markdevine.com>"
-  ],
-  "depends": [
-  ],
+  "authors": [ "Mark Devine <mark@markdevine.com>" ],
+  "depends": [],
   "description": "POSIX getaddrinfo with added interfaces",
   "license": "Artistic 2.0",
   "meta-version": 0,
@@ -15,10 +11,8 @@
     "POSIX::getaddrinfo": "lib/POSIX/getaddrinfo.rakumod",
     "POSIX::getaddrinfo::Constants": "lib/POSIX/getaddrinfo/Constants.rakumod"
   },
-  "resources": [
-  ],
+  "resources": [],
   "source-url": "https://github.com/markldevine/raku-POSIX-getaddrinfo.git",
-  "tags": [
-    "POSIX", "getaddrinfo"
-  ]
+  "tags": [ "POSIX", "getaddrinfo" ],
+  "version": "0.1.0"
 }

@@ -1,4 +1,4 @@
-unit    module POSIX::getaddrinfo::Contants:api<0.1.0>:auth<Mark Devine (mark@markdevine.com)>;
+unit    module POSIX::getaddrinfo::Contants:api<1>:auth<Mark Devine (mark@markdevine.com)>;
  
 constant \INET_ADDRSTRLEN       is export = 16;
 constant \INET6_ADDRSTRLEN      is export = 46;

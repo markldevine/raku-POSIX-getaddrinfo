@@ -1,6 +1,6 @@
 use     NativeCall;
 use     POSIX::getaddrinfo::Constants;
-unit    module POSIX::getaddrinfo:api<0.1.0>:auth<Mark Devine (mark@markdevine.com)>;
+unit    module POSIX::getaddrinfo:api<1>:auth<Mark Devine (mark@markdevine.com)>;
  
 class sockaddr is repr('CStruct') {
     has uint16 $.sa_family;
