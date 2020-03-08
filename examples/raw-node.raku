@@ -13,7 +13,7 @@ sub MAIN(Str:D $node is required) {
         my $addr = nativecast(POSIX::getaddrinfo::addrinfo, $res);
         while $addr {
             with $addr {
-                say "Name: ", $_ with .ai_cannonname;
+                say "Name: ", $_ with .ai_canonname;
                 say .family, ' ', .socktype;
                 say .address;
                 $addr = .ai_next;
