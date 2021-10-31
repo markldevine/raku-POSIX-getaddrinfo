@@ -1,9 +1,5 @@
-NAME
-====
 POSIX::getaddrinfo
-
-Description
-===========
+==================
 The POSIX getaddrinfo() function resolves host names into IP addresses & canonical names, among other things.
 
 [Short tutorial on calling a C function](https://docs.raku.org/language/nativecall#Short_tutorial_on_calling_a_C_function)
