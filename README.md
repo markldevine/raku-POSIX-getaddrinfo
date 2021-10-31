@@ -87,6 +87,10 @@ Get-Addr-Info-IPV4-STREAM-Names('myserver'); # DNS serving 'mydomain.com'
 #   └ 0 = myserver.mydomain.com.Str
 ```
 
+Limitations
+===========
+Only on Linux, so far.
+
 Citation
 ========
 Taken almost verbatim (and augmented) from raku.org documentation, [Short tutorial on calling a C function](https://docs.raku.org/language/nativecall#Short_tutorial_on_calling_a_C_function).
